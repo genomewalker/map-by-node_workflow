@@ -1,0 +1,8 @@
+executor: "slurm"
+latency-wait: 60
+default-resources:
+  - runtime=1440  # minutes (24 hours)
+  - mem_mb=4000
+  - cpus=1
+
+# Additional default parameters can be added here
